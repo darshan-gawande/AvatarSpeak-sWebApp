@@ -7,20 +7,35 @@
     <title>banana App</title>
     <style>
         textarea  {
+            border: solid black;
             width: 80%;
-            height: 1vh;
+            height: 10vh;
             padding: 1rem;
             display: block;
             margin: 1rem;
         }
+        #output{
+            border: solid black;
+            width: 80%;
+            height: 10vh;
+            display: block;
+            padding: 1rem;
+            margin: 1rem;
+        }
+        
 
     </style>
    
 </head>
 <body>
-    <h1>Hi Banana</h1>
+
+    <textarea id="txt-input"
+        placeholder="Please type your message in English and we convert it into other funny language "></textarea>
+
     <button id="btn-translator" >Translate</button>
-    <textarea id="txt-input" placeholder="Please type your message in English and we convert it into other funny language "></textarea>
+
+    <div style="font-size: larger;"></div>Translation will be here 👇</div>
+    <div id="output"> </div>
 
 
 
