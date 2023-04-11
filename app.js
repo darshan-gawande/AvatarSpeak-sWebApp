@@ -1,8 +1,13 @@
-// input
-var username = prompt("what is your name ?");
+var buttonSelector = document.querySelector("#btn-translator");
+var textInput = document.querySelector("#txt-input");
 
+console.log(textInput);
 
+function clickEventHandler() {
+    console.log("Clicked!");
+    console.log("input",textInput.value);
+}
 
-alert("It's works" + username);
+buttonSelector.addEventListener("click",clickEventHandler);
 
 
