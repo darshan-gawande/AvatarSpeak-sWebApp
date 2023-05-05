@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+:root {
+    --primary-color: rgb(7, 7, 92);
+    --width-break: 600px;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Satisfy', cursive;
+ }
+
+* {
+    box-sizing: border-box;
+ }
+
+div {
+    display: block;
+}
+
+nav  {
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+color: white;
+}
+
+
+main {
+    margin: auto;
+    padding: 1rem;
+   
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+
+  }
+
+button {
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Satisfy', cursive;
+    font-size: large;
+    color: white;
+}
+
+div {
+    display: block;
+    /* color: black; */
+
+}
+
+ #output {
+      padding: 1rem;
+      font-size: large;
+      box-sizing: border-box;
+      width: 100%;
+      min-height: 10vh;
+      max-height: 20vh;
+      overflow: scroll;
+      border: 1px solid #333333;
+}
+
+
+footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    width: 100%;
+    color: white;
+    bottom: 0;
+    padding: 1rem;
+    position: fixed;
+    
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+    font-size:medium;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+
+}
