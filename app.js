@@ -2,10 +2,12 @@ var btnTranslate = document.querySelector("#btn-translator");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
-var serverURL = "https://api.funtranslations.com/translate/navi.json"
+var serverURL = "https://api.funtranslations.com/translate/navi.json" 
+// API endpoint
 	
 
-function getTranslationURL(text) {
+// API request
+function getTranslationURL(text) {  
    return serverURL + "?" + "text=" + text
 }
 
